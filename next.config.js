@@ -5,7 +5,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ["firebasestorage.googleapis.com"]
+    domains: ["firebasestorage.googleapis.com", "cdn.sanity.io"]
   }
   
 }

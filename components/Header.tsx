@@ -4,7 +4,7 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between font-bold py-2 px-8 gap-4">
+    <header className="flex items-center justify-between py-2 px-8 gap-4">
       <div className="border-4 border-pink-600 rounded-full">
         <Link href="/">
           <Image
@@ -17,13 +17,13 @@ function Header() {
         </Link>
       </div>
       <div className="flex flex-col text-pink-600 p-2 gap-2 text-sm md:text-xl">
-          <h2 className="">
-            Modern Web Solution Services
-          </h2>
-        <Link 
-        className="flex justify-end"
-        href="/">
-          <button className="font-bold border border-pink-600 rounded-full px-2 py-1">Contact</button>
+        <h2 className="flex flex-col font-bold leading-none">
+          Modern Web Solution <span className="flex justify-end text-sm text-pink-600 font-normal">One Stop Service</span>
+        </h2>
+        <Link className="flex justify-end" href="/">
+          <button className="font-medium border border-pink-600 rounded-full px-2 py-1">
+            Contact
+          </button>
         </Link>
       </div>
     </header>
